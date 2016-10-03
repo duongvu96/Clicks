@@ -1,7 +1,19 @@
 <div class="container-fluid" id="main">
     <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center" id="title">
             <h1> 10 SECS <br> TO SAVE <br> <span id="life">YOUR LIFE.</span></h1>
+        </div>
+        
+        <div class="col-md-6 col-md-offset-3" id="message" style="display:none;">
+            <p id="mes-title">How quick was 10 seconds?</p>
+            <p class="mes-body"> Every second, one person is <br> forced to flee. <br> War. Conflict. Disaster.</p>
+            
+            <p class="mes-body"> See how you can help <br> at <span id="link"><a href="https://www.nrc.no/" target="_blank"> NRC.NO</a></span></p>
+            <p>
+               <button id="share" class="btn btn-primary">
+                Share on Facebook
+            </button> 
+            </p>
         </div>
     </div>
     
@@ -9,13 +21,16 @@
         <div class="col-md-12 text-center">
             <p id="timer">0:10</p>
             
+            <div>
+                <p id="prompt">Click as fast as you can</p>
+            </div>
             <button id="start-btn" class="btn btn-default">
                 START            
             </button>
         </div>
         <div id="game" style="display:none;" class="col-md-12 text-center">
             <div>
-                <p id="counter">0</p>
+                <p id="counter">0 clicks so far</p>
             </div>
             <button id="count-btn" class="btn btn-default">
                 GO!
