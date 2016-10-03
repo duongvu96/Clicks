@@ -1,0 +1,43 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+h1 {
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 110px;
+}
+
+/*#life {*/
+/*    color: #D98004;*/
+/*}*/
+
+#timer {
+    
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 150px;
+    color: #D98004;
+}
+
+#counter {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#count-btn, #start-btn {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    /*color: #D98004;*/
+}
+
+#count-btn:focus, #start-btn:focus {
+    outline: none !important;
+}
+#main {
+    margin-top: 50px;
+}

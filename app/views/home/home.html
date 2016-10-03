@@ -1,28 +1,30 @@
-<div class="container-fluid">
+<div class="container-fluid" id="main">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <h1> THIS IS THE TIMER</h1>
-            <div>
-                <p id="timer">0:10</p>
-            </div>
-            <button id="start-btn">
-                START
-            </button>
-            
-            <div id="game" style="display:none;">
-                <div>
-                    <p id="counter">0</p>
-                </div>
-                <button id="count-btn">
-                    GO!
-                </button>
-            </div>
-            
-            <a title="send to Facebook" 
-              href="http://www.facebook.com/sharer.php?s=100&p[title]=10%20Seconds%20To%Save%20Your%20Life&p[url]=duong-vu.com"
-              target="_blank">
-              Share on Facebook
-            </a>
+        <div class="col-md-12 text-center">
+            <h1> 10 SECS <br> TO SAVE <br> <span id="life">YOUR LIFE.</span></h1>
         </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p id="timer">0:10</p>
+            
+            <button id="start-btn" class="btn btn-default">
+                START            
+            </button>
+        </div>
+        <div id="game" style="display:none;" class="col-md-12 text-center">
+            <div>
+                <p id="counter">0</p>
+            </div>
+            <button id="count-btn" class="btn btn-default">
+                GO!
+            </button>
+        </div>
+                
+        <!--<a title="send to Facebook" -->
+        <!--    id="share" style="display:none;">-->
+        <!--    Share on Facebook-->
+        <!--</a>-->
     </div>
 </div>
